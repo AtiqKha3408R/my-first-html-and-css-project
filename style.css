@@ -15,8 +15,10 @@ a:hover{
 }
 /* fromherefirst row is setted */
 .firstimg1{
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
-    margin: 10px;
+    margin: 2px;
     padding: 2px;
     border: 2px solid rgb(7, 241, 7);
     border-radius: 10px;
@@ -26,7 +28,7 @@ a:hover{
 }
 li{
     display: inline-block;
-    margin-right: 80px;
+    margin-right: 20px;
     font-size: larger;
     color: white;
     text-shadow: greenyellow 6px;
@@ -42,6 +44,9 @@ li{
     padding: 40px;
     border-color: greenyellow;
     color: greenyellow;
+}
+.imgg{
+    justify-self: right;
 }
 .shr input{
     position: relative;
@@ -122,3 +127,16 @@ li{
     color: rgb(125, 196, 20);
 }
 /* from here my second card of flexbox */
+.sech{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(252, 252, 252);
+}
+.hitem{
+
+}
+.hitem1{
+    
+}
