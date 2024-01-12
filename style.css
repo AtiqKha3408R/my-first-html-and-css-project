@@ -130,13 +130,131 @@ li{
 .sech{
     display: flex;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
     background-color: rgb(252, 252, 252);
-}
-.hitem{
+    flex-direction: row;
+    margin: 50px;
 
 }
-.hitem1{
+.hitem{
+    align-content: center; 
+    width: 270px;  
+    margin: 100px;
+    float: left 50px;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
     
+    
+}
+.hitem1{
+    align-content: center;
+    width: 300px;
+    padding: 15px;
+}
+.b1{
+    border: 2px solid rgb(158, 197, 80);
+    color: white;
+    background-color: rgb(158, 197, 80);
+    border-radius: 4px;
+    padding: 5px;
+}
+.b1:hover{
+    cursor: pointer;
+    margin-top: -2px;
+}
+.num{
+    color: rgb(122, 121, 121);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-right: 10px;
+    min-width: 45px;
+}
+.hea{
+    font-size: 24px ;
+    font-weight: 800;
+    border-top: 2px solid  rgb(136, 136, 136);
+    border-right: 5px;
+}
+.hep{
+    color: rgb(122, 121, 121);
+    border-bottom: 2px solid  rgb(121, 120, 120) ;
+}
+.hitem2:hover{
+    color: rgb(158, 197, 80) ;
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 2px solid gold;
+    padding: 5px;
+}
+.hitem3:hover{
+    color: rgb(158, 197, 80) ;
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 2px solid gold;
+    padding: 5px;
+}
+.hitem4:hover{
+    color: rgb(158, 197, 80) ;
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 2px solid gold;
+    padding: 5px;
+}
+/* from here my third card options appears */
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px rgb(245, 245, 245);
+    justify-content: center;
+}
+.m1{
+    border: 2px solid  rgb(245, 245, 245);
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 580px;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 10px;   
+}
+.m1:hover{
+       margin-top: -2px;
+       border: 2px dotted rgb(158, 197, 80) ;
+       cursor: pointer;
+}
+.i1{
+    font-weight: 800;
+    color:rgb(158, 197, 80) ;
+    text-shadow: 2px;
+}
+.i2{
+    color: rgb(128, 126, 126) ;
+
+}
+.mb{
+    color: white;
+    background-color: rgb(158, 197, 80) ;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+.mb:hover{
+    margin-top: -2px;
+    cursor: pointer;
+}
+.mw{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+.hhh{
+    color:  rgb(128, 126, 126);
+}
+.ttt{
+    font-size: 28px;
+    font-weight: 400;
 }
