@@ -47,9 +47,10 @@ li{
 }
 .imgg{
     justify-self: right;
+    position: relative;
 }
 .shr input{
-    
+    position: absolute;   
     border: none;
     outline: none;
     font-size: 1.1em;
@@ -58,7 +59,7 @@ li{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 .shrbox{
-    
+    right: 0px;
     right: 120px;
     color: rgb(180, 178, 178);
     font-size: 0.9em;
@@ -110,6 +111,7 @@ li{
      padding: 20px;
      justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 10px;
     background-color: white;
     font-weight: 40px;
@@ -257,4 +259,95 @@ li{
 .ttt{
     font-size: 28px;
     font-weight: 400;
+}
+/* from here the next card appears */
+.gup{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+    background-color: white;
+}
+.gup1{
+    border-left: 1px solid rgb(237, 237, 237);
+    border-right: 1px solid rgb(237, 237, 237);
+    padding: 50px;
+}
+.i22{
+    font-weight: 600;
+    font-size: 25px;
+}
+.i33{
+    color: rgb(158, 197, 80);
+    font-weight: 900;
+    font-size:95px ;
+}
+.i44{
+    color: rgb(219, 174, 149);
+    font-size: 18px;
+}
+.l1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid white;
+    text-align: center;
+    justify-content: center;
+}
+.lq1{
+    text-align: center;
+    border: 2px solid white;
+    width: 300px;
+     margin: 20px;
+     padding: 20px;
+}
+.lq2{
+    border: 2px solid white;
+    width: 400px;
+     margin: 50px;
+     padding: 15px;
+}
+
+.ii9{
+    margin: 30px;
+    text-align: justify;
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
+}
+.il{
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
+    margin: 10px;
+    font-size: large;
+}
+.il:hover{
+    color:rgb(158, 197, 80) ;
+    
+}
+.i55{
+    color: rgb(128,126,126);
+}
+.i66{
+    color: rgb(158, 197, 80) ;
+    font-size: 28px;
+    font-weight: 800;
+}
+.i99{
+    font-weight: 700;
+    font-size: 24px;
+}
+.ilm{
+    color: white;
+    background-color:rgb(158, 197, 80) ;
+    border-radius: 4px;
+}
+.ilm:hover{
+    margin-top: -2px;
+    cursor: pointer;
+}
+.lq2:hover{
+    margin-top: -1px;
+    cursor: pointer;
 }
