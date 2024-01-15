@@ -9,7 +9,7 @@ a:hover{
     color: rgb(243, 182, 130);
 }
 .firstline{
-    color: rgb(216, 238, 118);
+    color: rgb(161, 199, 84);
     text-align: center;
     border-bottom-style: solid ;
 }
@@ -20,9 +20,9 @@ a:hover{
     list-style-type: none;
     margin: 2px;
     padding: 2px;
-    border: 2px solid rgb(7, 241, 7);
-    border-radius: 10px;
-    background-color: rgb(136, 243, 13);
+    border-bottom: 2px solid rgb(161, 199, 84);
+    
+    background-color:white;
     
     
 }
@@ -30,42 +30,46 @@ li{
     display: inline-block;
     margin-right: 20px;
     font-size: larger;
-    color: white;
+    color:rgb(151, 150, 149);
     text-shadow: greenyellow 6px;
     
 }
 .iii{
     text-decoration: none;
-    color: white;
+    color:rgb(175, 173, 170);
+    margin: 14px;
+    margin-top: -2px;
+}
+.my{
+    margin:auto;
+    max-width:300px
 }
 .shr{
-    display: flex;
-    box-sizing: border-box;
-    padding: 40px;
-    border-color: greenyellow;
-    color: greenyellow;
+    padding: 20px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
 }
 .imgg{
-    justify-self: right;
-    position: relative;
+    
+    
 }
 .shr input{
-    position: absolute;   
-    border: none;
-    outline: none;
-    font-size: 1.1em;
-    color: white;
-    background: linear-gradient(white);
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    
 }
 .shrbox{
-    right: 0px;
-    right: 120px;
-    color: rgb(180, 178, 178);
-    font-size: 0.9em;
-    cursor: pointer;
-    margin-top: 4px;
     
+
+
+}
+.but{
+    margin-right: -51px;
+    margin-top: 2px;
+    color:black;
+    background-color:rgb(161, 199, 84) ;
 
 }
 /* from here first image is setted */
@@ -117,10 +121,9 @@ li{
     font-weight: 40px;
 }
 .fitem1:hover{
-    color: greenyellow;
+    
     cursor: pointer;
-    padding: 25px ;
-    width: 210px;
+    margin-top: -1px;
 }
 .cha{
     text-align: center;
@@ -186,9 +189,8 @@ li{
 .hitem2:hover{
     color: rgb(158, 197, 80) ;
     cursor: pointer;
-    background-color: greenyellow;
-    border: 2px solid gold;
-    padding: 5px;
+    
+    margin-top: -2px;
 }
 .hitem3:hover{
     color: rgb(158, 197, 80) ;
@@ -224,7 +226,7 @@ li{
 }
 .m1:hover{
        margin-top: -2px;
-       border: 2px dotted rgb(158, 197, 80) ;
+       
        cursor: pointer;
 }
 .i1{
@@ -350,4 +352,93 @@ li{
 .lq2:hover{
     margin-top: -1px;
     cursor: pointer;
+}
+/* the contact informations start from here  */
+.lastcard{
+          display: flex;
+          flex-wrap: wrap;
+          background-color: rgb(239, 242, 247);
+          border: 2px solid rgb(239, 242, 247);
+          justify-content: center;
+          margin: 4px;
+}
+.lcard{
+      border: 2px solid rgb(239, 242, 247);
+      margin: 5px;
+      padding: 10px;
+      font-size: 25px;
+      margin-right: 50px;
+}
+.lcont{
+    border: 2px solid rgb(239, 242, 247);
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+
+}
+.q12{
+    border-left: 4px solid rgb(210, 169, 142);
+    margin-left: 2px;
+    margin: 4px;
+}
+.q13{
+    color:rgb(128,126,126) ;
+}
+.q{
+    color: white;
+    background-color: rgb(238, 142, 142);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+.q:hover{
+    margin-top: -2px;
+    background-color:rgb(158, 197, 80) ;
+    cursor: pointer;
+}
+/* from this the final information more cards appear */
+.lastone{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lo1{
+    border: 2px solid white;
+    margin: 10px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 25px;
+
+}
+.q15{
+    color: rgb(128, 126, 126);
+}
+/* ending items */
+.las{
+    float: right;
+    margin-top: 11px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.ll1{
+    border: 2px solid white;
+    
+}
+.q17{
+    border: 1px solid rgb(128, 126, 126)s;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: centers;
+}
+.log{
+    color:rgb(128, 126, 126) ;
+}
+.q17:hover{
+    color: white;
+    background-color:rgb(158, 197, 80) ;
 }
